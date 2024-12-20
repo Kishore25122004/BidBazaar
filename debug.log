@@ -1,0 +1,380 @@
+Watching for file changes with StatReloader
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Bids for listing 1: <QuerySet []>
+No bids found for listing 1
+Bids for listing 1: <QuerySet []>
+No bids found for listing 1
+Bids for listing 1: <QuerySet []>
+No bids found for listing 1
+Forbidden (CSRF token from POST incorrect.): /login/
+Forbidden (CSRF token from POST incorrect.): /register/
+D:\sports\BidBazaar\commerce\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\sports\BidBazaar\commerce\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\sports\BidBazaar\commerce\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\sports\BidBazaar\commerce\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\kisho\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisho\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\sports\BidBazaar\auctions\views.py", line 79, in register
+    send_mail(
+  File "C:\Users\kisho\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\mail\__init__.py", line 88, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\kisho\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\mail\message.py", line 301, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisho\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\kisho\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\kisho\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\kisho\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\kisho\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-210bbf6d311sm10527445ad.81 - gsmtp')
+D:\sports\BidBazaar\commerce\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Bids for listing 1: <QuerySet []>
+No bids found for listing 1
+Bids for listing 1: <QuerySet []>
+No bids found for listing 1
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Bids for listing 2: <QuerySet []>
+No bids found for listing 2
+Bids for listing 2: <QuerySet []>
+No bids found for listing 2
+Bids for listing 2: <QuerySet []>
+No bids found for listing 2
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /admin_dashboard/
+Not Found: /favicon.ico
+Bids for listing 1: <QuerySet []>
+No bids found for listing 1
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Bids for listing 3: <QuerySet []>
+No bids found for listing 3
+Watching for file changes with StatReloader
+Bids for listing 3: <QuerySet []>
+No bids found for listing 3
+Bids for listing 3: <QuerySet [<Bid: Bid object (1)>]>
+Highest bidder for listing 3: user
+Bids for listing 3: <QuerySet [<Bid: Bid object (1)>]>
+Highest bidder for listing 3: user
+Bids for listing 3: <QuerySet [<Bid: Bid object (1)>]>
+Highest bidder for listing 3: user
+Bids for listing 3: <QuerySet [<Bid: Bid object (1)>]>
+Highest bidder for listing 3: user
+Watching for file changes with StatReloader
+Bids for listing 1: <QuerySet []>
+No bids found for listing 1
+Bids for listing 1: <QuerySet []>
+No bids found for listing 1
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Bids for listing 6: <QuerySet []>
+No bids found for listing 6
+Bids for listing 6: <QuerySet []>
+No bids found for listing 6
+Bids for listing 6: <QuerySet []>
+No bids found for listing 6
+Bids for listing 6: <QuerySet [<Bid: Bid object (2)>]>
+Highest bidder for listing 6: Kishore
+Bids for listing 6: <QuerySet [<Bid: Bid object (2)>]>
+Highest bidder for listing 6: Kishore
+Watching for file changes with StatReloader
+D:\Projects\BidBazaar\BidBazaar\auctions\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Bids for listing 4: <QuerySet []>
+No bids found for listing 4
+Bids for listing 4: <QuerySet [<Bid: Bid object (2)>]>
+Highest bidder for listing 4: user
+Bids for listing 4: <QuerySet [<Bid: Bid object (2)>]>
+Highest bidder for listing 4: user
+Internal Server Error: /listing/4/bid/
+Traceback (most recent call last):
+  File "C:\Users\kisho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\BidBazaar\BidBazaar\auctions\views.py", line 286, in bid
+    if float(request.POST["value"]) > current_bid:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+Bids for listing 4: <QuerySet [<Bid: Bid object (2)>]>
+Highest bidder for listing 4: user
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Bids for listing 3: <QuerySet []>
+No bids found for listing 3
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /media/images/1700235993873-01.jpeg
+Not Found: /media/images/1700235993873-01.jpeg
+Not Found: /media/images/1700235993873-01.jpeg
+Not Found: /media/images/1700235993873-01.jpeg
+Not Found: /media/images/1700235993873-01.jpeg
+Not Found: /media/images/1700235993873-01.jpeg
+Not Found: /media/images/1700235993873-01.jpeg
+Watching for file changes with StatReloader

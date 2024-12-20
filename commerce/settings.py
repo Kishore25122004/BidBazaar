@@ -89,8 +89,12 @@ WSGI_APPLICATION = 'commerce.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',  # Use mysql backend
+        'NAME': 'sports',           # Replace with your database name
+        'USER': 'root',                 # Replace with your MySQL username
+        'PASSWORD': 'Kishore@2004',             # Replace with your MySQL password
+        'HOST': 'localhost',                     # Set to empty string for localhost
+        'PORT': '3306',                          # Default MySQL port
     }
 }
 
@@ -147,8 +151,8 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 #Change with your own email and app specific password
-EMAIL_HOST_USER = 'bidbazaar2024@gmail.com'
-EMAIL_HOST_PASSWORD = 'veur iymr rtdj twki'
+EMAIL_HOST_USER = 'kishoresenthilkumar25@gmail.com'
+EMAIL_HOST_PASSWORD = 'yerq teeh bqni avgj'
 
 LOGGING = {
     'version': 1,
